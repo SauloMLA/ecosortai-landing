@@ -1,0 +1,19 @@
+{
+  "name": "EcoSort AI",
+  "short_name": "EcoSortAI",
+  "description": "The bin that knows where it goes — AI-powered physical waste sorting.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0ebe3",
+  "theme_color": "#1c1917",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "en",
+  "categories": ["productivity", "education", "utilities"]
+}
