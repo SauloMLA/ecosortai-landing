@@ -25,6 +25,9 @@ function getSiteUrl() {
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
+  verification: {
+    google: "arS5h2yeqNewP4AEHNsZqq3t3LxiW_HcK4G-Rc3oByg",
+  },
 
   title: {
     default: "EcoSortAI — The bin that knows where it goes.",

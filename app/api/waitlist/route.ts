@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const TO_EMAIL = process.env.WAITLIST_EMAIL ?? "your@email.com";
+const TO_EMAIL = process.env.WAITLIST_EMAIL ?? "marioalaniz04@gmail.com";
 
 export async function POST(req: NextRequest) {
   try {

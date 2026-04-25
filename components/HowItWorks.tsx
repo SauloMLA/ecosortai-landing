@@ -37,7 +37,7 @@ export default function HowItWorks({ t }: { t: Translations }) {
 
           <div className="reveal reveal-delay-2 rounded-2xl overflow-hidden" style={{ boxShadow: "var(--shadow-md)", border: "1px solid var(--border)" }}>
             <Image
-              src="/recyclables-flatlay.png"
+              src="/landfill-aerial.png"
               alt={h.imageCaption}
               width={900}
               height={600}
