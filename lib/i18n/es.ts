@@ -18,6 +18,7 @@ export const es: Translations = {
     ctaSecondary:  "Cómo funciona",
     accuracyBadge: "95.8% de precisión",
     speedBadge:    "⚡ <2s de inferencia",
+    watchDemo:     "Ver video demo",
   },
   stats: [
     { value: "95.8%", label: "precisión" },
@@ -88,6 +89,13 @@ export const es: Translations = {
         tech:     "Pantalla local · Tiempo real",
       },
     ],
+  },
+  demo: {
+    eyebrow:       "Video demostrativo",
+    headline:      "Míralo en acción.",
+    headlineMuted: "Clasificación física real.",
+    body:          "Observa el prototipo físico de EcoSort AI clasificar plástico, papel, cartón y aluminio en menos de 2 segundos. El modelo MobileNetV2 en el dispositivo clasifica los residuos y acciona el mecanismo gimbal de motores a pasos para enviarlos al contenedor correcto.",
+    watchOnYouTube: "Ver en YouTube",
   },
   techSpecs: {
     eyebrow:  "Especificaciones",

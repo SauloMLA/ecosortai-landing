@@ -6,6 +6,7 @@ import StatsStrip from "@/components/StatsStrip";
 import Problem from "@/components/Problem";
 import Solution from "@/components/Solution";
 import HowItWorks from "@/components/HowItWorks";
+import Demo from "@/components/Demo";
 import TechSpecs from "@/components/TechSpecs";
 import About from "@/components/About";
 import CTA from "@/components/CTA";
@@ -37,6 +38,7 @@ export default function HomeES() {
       <Problem t={t} />
       <Solution t={t} />
       <HowItWorks t={t} />
+      <Demo t={t} />
       <div id="tech-specs"><TechSpecs t={t} /></div>
       <About t={t} />
       <CTA t={t} />

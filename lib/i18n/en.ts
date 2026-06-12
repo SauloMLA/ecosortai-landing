@@ -15,6 +15,7 @@ export type Translations = {
     ctaSecondary: string;
     accuracyBadge: string;
     speedBadge: string;
+    watchDemo: string;
   };
   stats: Array<{ value: string; label: string }>;
   problem: {
@@ -44,6 +45,13 @@ export type Translations = {
     totalTimePrefix: string;
     totalTime: string;
     steps: Array<{ n: string; label: string; headline: string; body: string; tech: string }>;
+  };
+  demo: {
+    eyebrow: string;
+    headline: string;
+    headlineMuted: string;
+    body: string;
+    watchOnYouTube: string;
   };
   techSpecs: {
     eyebrow: string;
@@ -102,6 +110,7 @@ export const en: Translations = {
     ctaSecondary:  "How it works",
     accuracyBadge: "95.8% accuracy",
     speedBadge:    "⚡ <2s inference",
+    watchDemo:     "Watch demo video",
   },
   stats: [
     { value: "95.8%", label: "accuracy" },
@@ -172,6 +181,13 @@ export const en: Translations = {
         tech:     "Local display · Real-time",
       },
     ],
+  },
+  demo: {
+    eyebrow:       "Video demonstration",
+    headline:      "Watch it in action.",
+    headlineMuted: "Real physical sorting.",
+    body:          "Watch the EcoSort AI physical prototype sort plastic, paper, cardboard, and aluminum in under 2 seconds. The on-device MobileNetV2 model classifies the waste and drives the 2-axis stepper motor gimbal to route it into the correct compartment.",
+    watchOnYouTube: "Watch on YouTube",
   },
   techSpecs: {
     eyebrow:  "Tech specs",

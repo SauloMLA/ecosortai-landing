@@ -68,8 +68,17 @@ export default function Hero({ t }: { t: Translations }) {
           </p>
 
           {/* CTA */}
-          <div data-hi className="opacity-0 flex items-center gap-4">
+          <div data-hi className="opacity-0 flex items-center gap-4 flex-wrap">
             <a href="#cta" className="btn-primary">{t.hero.ctaPrimary}</a>
+            <a
+              href="#demo"
+              className="btn-ghost flex items-center gap-2"
+            >
+              <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current shrink-0">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              {t.hero.watchDemo}
+            </a>
             <a
               href="#how-it-works"
               className="text-sm font-medium transition-colors duration-150"
