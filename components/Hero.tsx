@@ -87,15 +87,16 @@ export default function Hero({ t }: { t: Translations }) {
           style={{ minHeight: "340px" }}
         >
           <Image
-            src="/ecosort-real-device.png"
+            src="/ecosort-device-hero.png"
             alt="EcoSort AI smart sorting device — 4 quadrant square bin with camera arch"
-            width={523}
-            height={724}
+            width={1254}
+            height={1708}
             priority
+            unoptimized
             className="h-auto"
             style={{
               width: "min(90%, 560px)",
-              maxHeight: "85vh",
+              maxHeight: "72vh",
               objectFit: "contain",
               objectPosition: "bottom",
             }}
